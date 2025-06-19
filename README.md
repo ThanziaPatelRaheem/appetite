@@ -6,7 +6,7 @@
 
 ## 🚀 Live Demo
 
-👉 [Click here to view the live app](https://thanziapatelraheem.github.io/appetite/)
+👉 [Click here to view the live app](https://thanziapatelraheem.github.io/appetite/#/)
 
 ---
 
