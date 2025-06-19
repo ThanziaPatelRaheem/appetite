@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import Home from "../Pages/Home";
 import Layout from "../Components/Layout";
@@ -16,7 +16,7 @@ import AuthRequired from "../Components/AuthRequired";
 function App() {
   return (
     <>
-      <Router>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
@@ -35,7 +35,7 @@ function App() {
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
-      </Router>
+      </BrowserRouter>
     </>
   );
 }
