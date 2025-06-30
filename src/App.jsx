@@ -16,7 +16,7 @@ import AuthRequired from "../Components/AuthRequired";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/appetite">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
