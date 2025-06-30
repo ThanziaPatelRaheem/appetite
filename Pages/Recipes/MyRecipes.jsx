@@ -70,7 +70,7 @@ export default function MyRecipes() {
                 <div className="addrecipe-btn">
                   <Link
                     to={`/addrecipe/my-recipes/${recipe.id}`}
-                    className="view recipe"
+                    className="view-recipe-btn"
                   >
                     View Recipe
                   </Link>

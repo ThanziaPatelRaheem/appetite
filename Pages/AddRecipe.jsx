@@ -267,9 +267,6 @@ export default function AddRecipe() {
                 <button onClick={submitIngredientHandler}>
                   <IoIosAddCircle className="add-icon" />
                 </button>
-                {/* <button onClick={deleteIngredient}>
-                  <MdDelete className="del-icon" />
-                </button> */}
               </div>
             </div>
             <div className="ingredient-list">
